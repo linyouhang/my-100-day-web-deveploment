@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(233, 215, 207);
+    color: rgb(83, 75, 75);
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    font-family: "Fira" sans-serif;
+}
+p{
+    font-family: "Oswald" sans-serif;
+}
+img{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: rgb(167, 1, 78);
+}
+a:hover{
+    text-decoration: underline dashed rgb(167, 1, 78);
+}
