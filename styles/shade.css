@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(211, 202, 243);
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
