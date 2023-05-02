@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(71, 71, 71);
+}
+
+header {
+    position: static;
+}
+
+header a {
+    color: rgb(0, 204, 204);
+}
+
+#grid-container {
+    width: 1200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 250px);
+    gap: 10px;
+}
+
+.card:nth-child(3) {
+    grid-column: 1 / span 2;
+    /* grid-row: 2; */
+    /* width: 100%; */
+}
+
+.card {
+    /* width: 500px; */
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.card-description {
+    position: relative;
+    padding: 10px;
+    color: rgb(126, 126, 126);
+}
+
+.card img {
+    width: 240px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.link-box {
+    padding: 10px;
+    text-align: right;
+}
+
+.card a {
+    position: absolute;
+    padding: 5px;
+    color: rgb(181, 247, 225);
+    font-size: small;
+    right: 10px;
+    bottom: 10px;
+}
+
+.card a:hover {
+    background-color: rgba(181, 255, 255, 0.705);
+}
