@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>How can we help you?</h2>
+    <div class="forms-container">
+        <h1>Contact Us</h1>
+        <form action="/" method="get">
+            <section>
+                <ul>
+                    <li>
+                        <label for="username">Your Name</label>
+                        <input type="text" id="username" name="user-name">
+                    </li>
+                    <li>
+                        <label for="E-Mail">Your E-Mail Address</label>
+                        <input type="email" id="E-Mail" name="E-Mail">
+                    </li>
+                    <li>
+                        <label for="Phone">Your Phone Number</label>
+                        <input type="text" id="Phone" name="Phone">
+                    </li>
+                </ul>
+            </section>
+            <label for="Message">Your Message</label>
+            <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+            <h2>How should we reply?</h2>
+            <section>
+                <ul class="radio-container">
+                    <li>
+                        <label for="phone">Call me</label>
+                        <input type="radio" id="phone" name="reply" value="phone">
+                    </li>
+                    <li>
+                        <label for="email" name="reply">Send me an email</label>
+                        <input type="radio" id="email" name="reply" value="email">
+                    </li>
+                    <li>
+                        <label for="noreply">Don't reply</label>
+                        <input type="radio" id="noreply" name="reply" value="noreply">
+                    </li>
+                </ul>
+            </section>
+
+            <button type="submit">Clear</button>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
